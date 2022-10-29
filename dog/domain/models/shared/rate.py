@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass(init=False, eq=True)
-class ProgressRate:
+class Rate:
     value: int = 0
 
     def __init__(self, value: int):
