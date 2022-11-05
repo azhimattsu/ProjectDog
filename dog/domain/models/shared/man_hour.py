@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass(init=False, eq=True)
-class Rate:
+class ManHour:
     value: float = 0
 
     def __init__(self, value: float):

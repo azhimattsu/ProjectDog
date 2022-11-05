@@ -2,8 +2,8 @@ from dataclasses import dataclass
 
 
 @dataclass(init=False, eq=True)
-class Rate:
-    value: float = 0
+class Price:
+    value: int = 0
 
-    def __init__(self, value: float):
+    def __init__(self, value: int):
         self.value = value
